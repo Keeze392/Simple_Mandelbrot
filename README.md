@@ -2,22 +2,29 @@
 
 ### Description
 
-It's Mandelbrot with simple features. Will better in future might take while. \
-This project was mean for my training and learn of C++, it was fun :) \
-Currently performance is kinda not good since it's draw pixel by pixel, i want fix and better later.
+The Mandelbrot set is a famous fractal. \
+It visualizes complex dynamics, where points inside the set remain bounded under iteration, \
+creating intricate, self-repeating patterns often seen in mathematical art.
 
-### How to play?
+### About the project
 
-**WASD** - Move around \
-**Left click** - Zoom in and follow point of the Mouse. \
+It's Mandelbrot with simple features. Dive infinitely deep into its intricate patterns.
+This project was one of my goals to train and improve my skills and C++ knowledge.
+It was really fun :) This needs more improvisation in the future.
+
+### How to use?
+
+**WASD** - Use keys to move around. \
+**Left click** - Zoom in and focus on your Cursor. \
 **Right click** - Reset back to default.
 
 ### Install
 
-To play, simply use release. If there is no for your suit os, you can build with cmake
+To play, simply use the [Release](https://github.com/Keeze392/Simple_Mandelbrot/releases/tag/v0.0.1). \
+If your OS is not listed there, you can build with `cmake`
 
 `Cmake` \
-Require install `cmake` package before run terminal.
+Have installed `cmake` package before running in the terminal.
 ```BASH
 mkdir build
 cd build
@@ -25,6 +32,6 @@ cmake ..
 make
 ```
 
-After that steps, you got file in build folder, you can run by `./Mandelbrot` in terminal.
+After those steps, you get one file in the build folder, run ./Mandelbrot in the terminal.
 
-Enjoy! :)
+Have fun! :)

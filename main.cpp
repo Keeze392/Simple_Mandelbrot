@@ -2,8 +2,7 @@
 
 #include <complex>
 #include <algorithm>
-#include <vector> 
-#include <thread>
+#include <vector>
 
 // window size
 const int width{1000};
