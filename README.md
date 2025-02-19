@@ -1,4 +1,4 @@
-### Simple Mandelbrot
+# Simple Mandelbrot
 
 ### Description
 
