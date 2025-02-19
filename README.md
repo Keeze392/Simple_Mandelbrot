@@ -3,7 +3,8 @@
 ### Description
 
 It's Mandelbrot with simple features. Will better in future might take while. \
-This project was mean for my training and learn of C++, it was fun :)
+This project was mean for my training and learn of C++, it was fun :) \
+Currently performance is kinda not good since it's draw pixel by pixel, i want fix and better later.
 
 ### How to play?
 
