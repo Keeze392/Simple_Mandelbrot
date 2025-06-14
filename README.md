@@ -30,6 +30,6 @@ cmake ..
 make
 ```
 
-After those steps, you get one file in the build folder, run ./Mandelbrot in the terminal.
+After those steps, you get one file in the build folder, run `./Mandelbrot` in the terminal.
 
 Have fun! :)
