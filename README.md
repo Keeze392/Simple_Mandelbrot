@@ -22,7 +22,6 @@ It was really fun :) This needs more improvisation in the future.
 
 you can build with `cmake`
 
-`Cmake` \
 Have installed `cmake` package before running in the terminal.
 ```BASH
 mkdir build
