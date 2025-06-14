@@ -20,8 +20,7 @@ It was really fun :) This needs more improvisation in the future.
 
 ### Install
 
-To play, simply use the [Release](https://github.com/Keeze392/Simple_Mandelbrot/releases/tag/v0.0.1). \
-If your OS is not listed there, you can build with `cmake`
+you can build with `cmake`
 
 `Cmake` \
 Have installed `cmake` package before running in the terminal.
