@@ -10,8 +10,6 @@ include(FetchContent)
 FetchContent_Declare(
     raylib
     URL https://github.com/raysan5/raylib/archive/refs/tags/5.5.tar.gz
-    SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/raylib
-    BINARY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/external/raylib-build
 )
 
 # Populate Raylib
@@ -21,5 +19,4 @@ FetchContent_MakeAvailable(raylib)
 add_executable(Mandelbrot main.cpp)
 
 # Include and link Raylib
-target_include_directories(Mandelbrot PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/external/raylib/src)
 target_link_libraries(Mandelbrot PRIVATE raylib)
